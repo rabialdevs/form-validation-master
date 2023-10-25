@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  /* box-sizing: border-box; */
+}
+.App{
+  background-color:#B1D9DB;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#left-side-font{
+  font-size: 22px;
+  width: 309px;
+  color: white;
+  font-weight: 300;
+  margin-top: 1%;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+.rightside{
+  background-color: white;
+  width: 70vw;
+  height: 100vh;
+  padding:30px 0px 0px 30px ;
+  border-radius: 30px 0 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+#right-side-font{
+  margin-left: 80px;
+
+}
+.row-1{
+  margin-top: 20px;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin-left: 95px;
+  
+}
+.signup-div{
+  border-radius: 8px;
+  border: 1px solid #EAEAEA;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-around;
+  width: 190px;
+  font-size: 12px;
+
+}
+#or{
+  margin-left: 12%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 480px;
+  margin-bottom: 30px;
+  padding: 5px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  margin-left: 120px;
+  background-color: white;
+}
+hr{
+  width: 480px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  
+}
+.form button{
+  width: 350px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #7CD2D7;
+  color: white;
+  margin-left: 90px;
+  margin-top: 10px;
+
+}
+.li,ul{
+  list-style: none;
+  margin-top: 20px;
+  color: red;
+  list-style: none;
+  margin-right: -120px;
+
+
+}
+#succesMessage{
+  margin-top: 20px;
+  color: green;
+  margin-right: -120px;
+}
+#graphic{
+  position: relative;
+  z-index: 100;
+  left: 9vw;
+  transform: rotate(-8deg);
+  
+}
